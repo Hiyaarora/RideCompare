@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development (hot reload, debugging). -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Debug builds only: lets the app reach the local backend over http://10.0.2.2:4000.
+         Release builds keep Android's default (HTTPS only). -->
+    <application android:networkSecurityConfig="@xml/network_security_config"/>
+</manifest>

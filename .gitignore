@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Screenshots / recordings (never commit)
+screenshots/
+*.screenshot.png
+Screenshot*.png
+Simulator Screenshot*.png
+*.mov
+# Secrets
+.env
+**/local.properties
+**/Secrets.xcconfig
+*.keystore
+*.jks
